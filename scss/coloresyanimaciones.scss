@@ -1,0 +1,97 @@
+
+
+body {
+    background-image: linear-gradient($white, $violet, rgba(146, 9, 158, 0.349), $white);
+  }
+  
+  .bg_violet {
+    background-color: $violet;
+  }
+  
+  .bg_violet:hover {
+    transform: translate(-7px, -7px);
+    animation-name: p-pag;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes p-pag {
+    from {
+      background-color: $violet;
+    }
+  
+    to {
+      background-color: rgb(4, 255, 242);
+    }
+  }
+  
+  
+  .nav1:hover {
+    transform: translate(10px, 10px);
+    animation-name: c-violeta;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: -1s
+  }
+  
+  
+  @keyframes c-violeta {
+    from {
+      background-color: $white;
+    }
+  
+    to {
+      background-color: rgb(255, 0, 221);
+    }
+  }
+
+.nav2:hover {
+    transform: translate(10px, 10px);
+    animation-name: c-red;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: -1s
+}
+
+
+@keyframes c-red {
+    from {
+        background-color: $white;
+    }
+
+    to {
+        background-color: $red;
+    }
+}
+
+
+.nav3:hover {
+    transform: translate(10px, 10px);
+    animation-name: c-verde;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: -1s
+}
+
+
+@keyframes c-verde {
+    from {
+        background-color: $white;
+    }
+
+    to {
+        background-color: rgb(115, 255, 0);
+    }
+}
+
+
+.nav {
+    background-color: $white;
+}
+
+
+/*inicia productos.html*/
+
+.bg-morado {
+    background-color: rgb(166, 73, 252);
+}
