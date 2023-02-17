@@ -1,0 +1,12 @@
+$sizes: (
+    height: 50px,
+    widht: 50px,
+    height-img: 100%,
+    widht-img: 100%,
+    );
+
+
+
+.img-size
+{height: map-get($sizes, height );
+ width: map-get($sizes, widht );}    
