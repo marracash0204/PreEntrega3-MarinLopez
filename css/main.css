@@ -5,63 +5,12 @@ body {
   background-color: violet; }
 
 .bg_violet:hover {
-  transform: translate(-7px, -7px);
-  animation-name: p-pag;
-  animation-duration: 4s;
-  animation-iteration-count: infinite; }
+  transform: translate(-6px, -6px); }
 
-@keyframes p-pag {
-  from {
-    background-color: violet; }
-  to {
-    background-color: #04fff2; } }
-
-.nav1:hover {
-  transform: translate(10px, 10px);
-  animation-name: c-violeta;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-delay: -1s; }
-
-@keyframes c-violeta {
-  from {
-    background-color: white; }
-  to {
-    background-color: #ff00dd; } }
-
-.nav2:hover {
-  transform: translate(10px, 10px);
-  animation-name: c-red;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-delay: -1s; }
-
-@keyframes c-red {
-  from {
-    background-color: white; }
-  to {
-    background-color: red; } }
-
-.nav3:hover {
-  transform: translate(10px, 10px);
-  animation-name: c-verde;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-delay: -1s; }
-
-@keyframes c-verde {
-  from {
-    background-color: white; }
-  to {
-    background-color: #73ff00; } }
-
-.nav {
-  background-color: white; }
+nav:hover a:hover {
+  transform: translate(5px, 5px);
+  animation-duration: 4s; }
 
 /*inicia productos.html*/
 .bg-morado {
   background-color: #a649fc; }
-
-.img-size {
-  height: 50px;
-  width: 50px; }
