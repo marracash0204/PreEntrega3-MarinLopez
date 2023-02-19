@@ -1,28 +1,32 @@
-
-
 body {
-    background-image: linear-gradient($white, $violet, rgba(146, 9, 158, 0.349), $white);
-  }
-  
-  .bg_violet {
-    background-color: $violet;
-  }
-  
-  .bg_violet:hover {
-    transform: translate(-6px, -6px);
-  }
+  background-image: linear-gradient($white, $violet, rgba(146, 9, 158, 0.349), $white);
+}
 
-  
-  
-  nav:hover { a:hover {
+.bg_violet {
+  background-color: $violet;
+}
+
+.bg_violet:hover {
+  transform: translate(-6px, -6px);
+}
+
+nav:hover {
+  a:hover {
     transform: translate(5px, 5px);
-    animation-duration: 4s;}
+    animation-duration: 4s;
   }
-  
+}
+
+main {
+  iframe{
+    height: 600px;
+    width: 100%;
+  }
+}
 
 
 /*inicia productos.html*/
 
 .bg-morado {
-    background-color: rgb(166, 73, 252);
+  background-color: rgb(166, 73, 252);
 }

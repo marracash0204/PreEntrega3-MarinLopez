@@ -11,6 +11,10 @@ nav:hover a:hover {
   transform: translate(5px, 5px);
   animation-duration: 4s; }
 
+main iframe {
+  height: 600px;
+  width: 100%; }
+
 /*inicia productos.html*/
 .bg-morado {
   background-color: #a649fc; }
