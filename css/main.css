@@ -4,6 +4,9 @@ body {
 .bg_violet {
   background-color: violet; }
 
+.bg-morado {
+  background-color: #a649fc; }
+
 .bg_violet:hover {
   transform: translate(-6px, -6px); }
 
@@ -14,7 +17,3 @@ nav:hover a:hover {
 main iframe {
   height: 600px;
   width: 100%; }
-
-/*inicia productos.html*/
-.bg-morado {
-  background-color: #a649fc; }
